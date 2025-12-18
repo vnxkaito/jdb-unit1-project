@@ -1,0 +1,29 @@
+Basic:
+login <user> <password>
+deposit <account> <amount>
+withdraw <account> <amount>
+transfer <from> <to> <amount>
+statement <account>
+
+Admin:
+create user <user_id> <user_password> <user_type>
+read user <user_id>
+update user <user_id> <user_password> <user_type>
+delete user <user_id>
+
+create account <account_id> <account_type> <balance> <card_type> <user_id>
+read account <account_id>
+update account <account_id> <account_type> <balance> <card_type> <user_id>
+delete account <account_id>
+
+Notes:
+- parameters will be taken 1 by 1 while prompting the user the enter them.
+- in update commands the user will be asked if we he wants to change the value and if yes input will be taken.
+- customer can use deposit, withdraw, or transfer on his accounts
+- banker can use statement on any account
+- admin can use any command on any account
+
+for statement:
+- after entering the command, the prompt "The default statement period is 3 months would you like to change it? (yes/no)" will be given to the user.
+- if yes, a numbered list will appear for the user to choose (today, yesterday, last week, last 7 days, last month, last 30 days, custom).
+- if custom period he will be first prompted to enter the start date then the end date in provided format (ex. 2025-12-18).

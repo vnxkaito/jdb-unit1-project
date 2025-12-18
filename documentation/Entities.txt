@@ -1,0 +1,4 @@
+User
+Account
+Transaction
+Card Type (will be hard coded)
