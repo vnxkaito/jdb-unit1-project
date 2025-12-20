@@ -8,7 +8,7 @@ public abstract class TransactionAbstract {
     abstract boolean deleteAccount(String accountId);
 
     abstract boolean logWithdraw();
-    abstract boolean logDeposite();
+    abstract boolean logDeposit();
     abstract boolean logTransfer();
     abstract boolean logOverdraft();
 }

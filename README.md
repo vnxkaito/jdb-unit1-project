@@ -3,7 +3,11 @@
 <h2>Project Overview</h2>
 <p>This project is a basic banking system with a CLI. The purpose of this project is to explore the different aspects of java programming.</p>
 
-<p>To practice TDD, unit tests will be created before the actual functionalities are implemented.</p>
+<h3>Project planning links</h3>
+
+[Classes](https://sharing.clickup.com/90182226880/l/h/2kzmf4y0-618/178301ea4f9dbb6)
+
+[User Stories](https://sharing.clickup.com/90182226880/l/h/2kzmf4y0-518/8c3e6ba9ad38733)
 
 <h2>Phases</h2>
 <h3>Phase 1</h3>
