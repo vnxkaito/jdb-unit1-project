@@ -1,0 +1,12 @@
+Classes:
+- Account: will handle all transactions.
+-- methods: createAccount, withdraw, withdrawDialog, deposit, depositDialog, transfer, transferDialog, getAccountsOfUser, chargeOverdraft
+
+- User: will handle login related tasks.
+-- methods: login, register, encryptPassword, decryptPassword, lock, checkLockOneMinute(lock with a time variable then check it).
+
+- Transaction: will handle saving, reading, and displaying transactions.
+-* Transaction structure: timestamp, from, to, amount, type.
+-- methods: logWithdraw, logDeposit, logTransfer, logOverdraft.
+
+each class will also have CRUD methods.

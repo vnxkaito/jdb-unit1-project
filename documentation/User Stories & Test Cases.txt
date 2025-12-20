@@ -8,7 +8,7 @@ Actors:
 User Stories:
 - As a user, I want to login using my username and password, so I can access my account/s.
 - As a system, I want to recognize the user role, so I can control access to commands.
-- As an admin, I want to create a user, so I can give it to a user.
+- As an admin, I want to create a user, so I can enable users to use the system.
 - As a banker, I want to create an account, so I can give it to a user.
 - As a banker, I want to assign a user id to an account, so the user can access it.
 - As a customer, I want to change the password of my account, so I can make it more secure.
